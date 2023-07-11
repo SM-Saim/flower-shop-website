@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Lato;
 }
 
 .banner {
@@ -22,7 +23,7 @@
   width: 700px;
   color: rgba(39, 39, 39, 0.6);
   font-family: Lato;
-  font-size: 20px;
+  font-size: 21px;
   font-weight: 400;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -81,6 +82,7 @@
   color: rgba(39, 39, 39, 0.6);
   font-family: Lato;
   font-weight: 400;
+  font-size: 21px;
 }
 
 .section1-photo-caption {
@@ -147,7 +149,7 @@
 .cardpart1 p {
   color: rgba(39, 39, 39, 0.8);
   font-family: Lato;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 600;
 }
 .card {
@@ -187,7 +189,75 @@
 .section2left p {
   color: rgba(39, 39, 39, 0.6);
   font-family: Lato;
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 400;
   margin-bottom: 40px;
+}
+.section3instragram {
+  margin-bottom: 50px;
+}
+.section3instragram h1 {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.section3instragram p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 21px;
+  font-weight: 400;
+  margin: auto;
+}
+.instaphoto img {
+  width: 250px;
+}
+.instaphoto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 100px;
+  gap: 0 20px;
+}
+.formsection {
+  text-align: center;
+  width: 79%;
+  height: 340px;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./FlowerAsset/Rectangle\ 9.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.emailsection {
+  height: 52px;
+  width: 500px;
+  border-radius: 7px;
+  border: none;
+  font-size: 16px;
+  padding-left: 7px;
+  padding-top: 2px;
+  margin-right: 20px;
+}
+.formsection h1 {
+  color: #272727;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  padding: 10px;
+}
+.formsection p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
 }
